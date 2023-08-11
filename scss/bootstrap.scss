@@ -1,24 +1,29 @@
 /******* Customized Bootstrap ********/
 
-$primary: #32C36C;
-$light: #F6F7F8;
-$dark: #1A2A36;
+$primary: #348E38;
+$secondary: #0F4229;
+$light: #E8F5E9;
+$dark: #0F4229;
 
-$font-family-base: 'Open Sans', sans-serif;
+$font-family-base: 'Roboto', sans-serif;
 
-$headings-font-family: 'Roboto', sans-serif;
+$headings-font-family: 'Roboto Slab', serif;
 
-$body-color: #9B9B9B;
+$body-color: #E8F5E9;
 
 $headings-color: $dark;
 
-$headings-font-weight: 700;
+$headings-font-weight: 600;
 
-$display-font-weight: 900;
+$display-font-weight: 800;
 
 $enable-responsive-font-sizes: true;
 
-$border-radius: 8px;
+$border-radius: 0px;
+
+$border-radius-sm: $border-radius;
+
+$border-radius-lg: $border-radius;
 
 $link-decoration: none;
 
