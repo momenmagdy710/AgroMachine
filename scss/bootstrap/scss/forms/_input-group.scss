@@ -109,12 +109,12 @@
     }
   }
 
-  $validation-رسالتكs: "";
+  $validation-messages: "";
   @each $state in map-keys($form-validation-states) {
-    $validation-رسالتكs: $validation-رسالتكs + ":not(." + unquote($state) + "-tooltip)" + ":not(." + unquote($state) + "-feedback)";
+    $validation-messages: $validation-messages + ":not(." + unquote($state) + "-tooltip)" + ":not(." + unquote($state) + "-feedback)";
   }
 
-  > :not(:first-child):not(.dropdown-menu)#{$validation-رسالتكs} {
+  > :not(:first-child):not(.dropdown-menu)#{$validation-messages} {
     margin-left: -$input-border-width;
     @include border-start-radius(0);
   }
